@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,180 @@
     <title>125a.nu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/grid.css">   
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 </head>
+
 <body>
+
 
 
     <header>
         <a href="index.html">
-            <img src="img/125anu.png" alt="Sidans logga">
+            <img src="img/125anu.png" alt="Sidans logga" id="logga">
         </a>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#">Aprilia</a></li>
-            <li><a href="#">Yamaha</a></li>
-            <li><a href="#">KTM</a></li>
-            <li><a href="#">Honda</a></li>
-            <li><a href="#">Suzuki</a></li>
+        <ul class="links">
+
+            <li class="dropdown">
+                <a href="#" class="show">Aprilia</a>
+                <div class="dropdown-content">
+                    <a href="#">RS 125</a>
+                    <a href="#">Tuono 125</a>
+                    <a href="#">SX 125</a>
+                    <a href="#">RX 125</a>
+                    <a href="#">SR GT 125</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="show">Yamaha</a>
+                <div class="dropdown-content">
+                    <a href="#">WR125X</a>
+                    <a href="#">MT-125</a>
+                    <a href="#">R125</a>
+                    <a href="#">XSR125</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="show">KTM</a>
+                <div class="dropdown-content">
+                    <a href="#">125 Duke</a>
+                    <a href="#">125 EXC</a>
+                    <a href="#">RC 125</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="show">Honda</a>
+                <div class="dropdown-content">
+                    <a href="#">CB125-F</a>
+                    <a href="#">CB125-R</a>
+                    <a href="#">MSX125</a>
+                    <a href="#">PCX125</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="show">Suzuki</a>
+                <div class="dropdown-content">
+                    <a href="#">GSX-R125</a>
+                    <a href="#">Sport 125</a>
+                </div>
+            </li>
+
         </ul>
+
+
     </nav>
 
 
+    <div class="intro">
+        <h1>Sveriges Största Utbud För 125</h1>
+    </div>
+
+    <h2  class="animate">Varför ska du handla hos oss?</h2>
+
+
+    <div class="sales">
+
+        <div class="block animate">
+            <img src="/img/delivery.png" alt="" class="icon">
+            <p>Få din motorcykel hemleverarad samma dag!</p>
+        </div>
+
+        <div class="block animate">
+            <img src="/img/award.png" alt="" class="icon">
+            <p>Bäst kvalitet i landet samt 3 års garanti!</p>
+        </div>
+
+        <div class="block animate">
+            <img src="/img/support.png" alt="" class="icon">
+            <p>Vi erbjuder gratis service i ett år efter ditt köp!</p>
+        </div>
+
+    </div>
+
+    <div class="info">
+        <p class="animate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus odio neque, ac
+            gravida massa dignissim eu. Fusce faucibus sem enim, et euismod nisi laoreet id. Orci varius natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+        <p class="animate">Curabitur ultricies nisl tincidunt libero efficitur, ac finibus mi congue. Etiam at
+            ipsum ornare, facilisis quam ut, suscipit elit. Morbi tempus mi cursus dui dignissim rutrum. Nam sagittis
+            convallis venenatis.</p>
+
+        <p class="animate">Donec orci lacus, faucibus in sollicitudin eget, viverra a eros. Suspendisse vehicula
+            arcu orci, molestie pretium augue consectetur ac. Nulla tincidunt, nulla interdum maximus aliquam, metus
+            libero pulvinar sem, ut varius erat orci et massa. </p>
+    </div>
+
+    <noscript>
+        Du är sämst
+    </noscript>
+
+
+    <h2 class="animate">Din resa på en motorcykel börjar hos oss!</h2>
+
+    <div class="swiper animate">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="/img/1.jpg.jpg" alt="" class="slide"></div>
+            <div class="swiper-slide"><img src="/img/2.jpg.jpg" alt="" class="slide"></div>
+            <div class="swiper-slide"><img src="/img/3.jpg.jpg" alt="" class="slide"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Produkter</h3>
+                <ul>
+                    <li><a href="index.html">Produktblad</a></li>
+                    <li><a href="index.html">Köpvillkor</a></li>
+                    <li><a href="index.html">Boka Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Kontakt</h3>
+                <ul>
+                    <li><a href="index.html">hej@125a.nu</a></li>
+                    <li><a href="index.html">+46 33 90510</a></li>
+                    <li><a href="index.html">107 70, Stockholm</a></li>
+                </ul>
+            </div>
+            <p>License: &nbsp<a href="https://creativecommons.org/licenses/by-sa/4.0/"><u>CC-BY-SA-4.0</u></a></p>
+        </div>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

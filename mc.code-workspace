@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../spatest"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mc"
+	}
+}
