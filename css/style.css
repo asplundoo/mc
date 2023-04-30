@@ -353,6 +353,10 @@ u {
         overflow-x: hidden;
     }
 
+    .swiper {
+        overflow: visible;
+    }
+    
     .intro {
         height: auto;
     }
